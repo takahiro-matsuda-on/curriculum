@@ -28,7 +28,8 @@ public class Main {
 
 			//      問③ fooが格納されているインデックスを出力してください。
 			//	　<以下記述>
-			System.out.println("fooのインデックス：" + array.size());
+			int fooIndex = array.indexOf("foo");
+			System.out.println("fooのインデックス：" + fooIndex);
 		}
 
 		{
